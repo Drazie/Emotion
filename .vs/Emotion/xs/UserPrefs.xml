@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F8483634-9B62-41C8-BF8D-3D89DAD10141}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.ItemProperties.Emotion.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_3a_xl_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Emotion/OptionsPage.xaml.cs">
+    <Files>
+      <File FileName="Emotion/App.xaml.cs" Line="13" Column="59" />
+      <File FileName="Emotion/OptionsPage.xaml" />
+      <File FileName="Emotion/OptionsPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Emotion" expanded="True">
+            <Node name="Emotion" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="OptionsPage.xaml" expanded="True">
+                <Node name="OptionsPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Emotion.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/imac/Desktop/Emotion_v.001/Emotion/OptionsPage.xaml.cs" relfile="Emotion/OptionsPage.xaml.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

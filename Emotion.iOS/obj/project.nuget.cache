@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YCj2vn20542k/15ZWGbIrBK406h4zlcZaS1PLOMEqsoqjUOjSY3fDc83it7CemE1eb5rJDudX5V+iheSLOsYvw==",
+  "success": true,
+  "projectFilePath": "/Users/imac/Desktop/Emotion_v.001/Emotion.iOS/Emotion.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/imac/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/imac/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

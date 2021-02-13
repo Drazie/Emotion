@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Emotion.MainPage">
+
+    <StackLayout BackgroundColor="#F0F8FF"
+        Padding="15, 20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="350"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0"
+                   FontSize="Header"
+                   Text="Emotion"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="CornflowerBlue"
+                   />
+            
+            <Entry Grid.Row="1"
+                   Placeholder="Email"
+                   Keyboard="Email"
+                   VerticalOptions="End"/>
+            <Entry Grid.Row="2"
+                   Placeholder="Password"
+                   IsPassword="True"
+                   VerticalOptions="Start"/>
+            <Button Grid.Row="3"
+                    Text="Log in"
+                    x:Name="LoginButton"
+                    Clicked="LoginButton_Clicked"
+                    BackgroundColor="CornflowerBlue"/>
+            <Button Grid.Row="4"
+                    Text="Sign up"
+                    x:Name="SignupButton"
+                    Clicked="SignupButton_Clicked"
+                    HorizontalOptions="Start"
+                    BackgroundColor="PaleGreen"
+                    />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

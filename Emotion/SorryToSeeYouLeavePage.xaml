@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Emotion.SorryToSeeYouLeavePage">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#F0F8FF"
+            Padding="40, 25">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="6*"/>
+                    <RowDefinition
+                        Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <BoxView/>
+            <Label
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="We are sorry to see you leave:("
+                FontAttributes="Bold"
+                FontSize="Title"/>
+
+            <BoxView
+                Grid.Row="1"/>
+            <Label
+                Grid.Row="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Text="Could you please let us know why you decided to turn the notifications off?"
+                FontAttributes="Italic"
+                FontSize="Subtitle"
+                HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

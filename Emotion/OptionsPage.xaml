@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Emotion.OptionsPage"
+             xmlns:local="clr-namespace:Emotion">
+
+        <ScrollView
+            BackgroundColor="#F0F8FF">
+        <StackLayout Orientation="Vertical"
+                     Margin="35"
+                     Padding="40, 25"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Center">
+            <Label
+                Text="I prefer to get Emotions"
+                FontSize="Subtitle"
+                HorizontalOptions="Center"
+                Margin="0, 30, 0, 20"
+                TextColor="Black"/>
+
+            <StackLayout Orientation="Horizontal"
+                         Padding="35, 40"
+                         HorizontalOptions="Center">
+            <TimePicker
+                x:Name="timePickerfrom"
+                Format="HH:mm"
+                Time="00:00"/>
+            <TimePicker
+                x:Name="timePickerTo"
+                Format="HH:mm"
+                Time="00:00"/>
+            </StackLayout>
+
+            <Label
+                Margin="0, 50, 0, 0"
+                Text="I want"
+                FontSize="Subtitle"
+                HorizontalOptions="Center"
+                TextColor="Black"/>
+            <Entry
+                Placeholder="2"
+                Keyboard="Numeric"
+                x:Name="EmotionsPerDay"
+                Margin="0, 30, 0, 0"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Emotions a day"
+                FontSize="Subtitle"
+                Margin="0, 30, 0,40"
+                HorizontalOptions="Center"
+                TextColor="Black"/>
+            <ImageButton
+                Margin="0, 20, 0, 0"
+                WidthRequest="80"
+                HeightRequest="80"
+                BackgroundColor="Transparent"
+                Source="{local:ImageResource Emotion.Assets.check_icon.png}"
+                HorizontalOptions="Center"
+                x:Name="SaveOptions"
+                Clicked="SaveOptions_Clicked">
+                <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup x:Name="CommonStates">
+            <VisualState x:Name="Normal">
+                <VisualState.Setters>
+                    <Setter Property="Scale"
+                            Value="1"/>
+                    
+                </VisualState.Setters>
+            </VisualState>
+
+            <VisualState x:Name="Pressed">
+                <VisualState.Setters>
+                    <Setter Property="Scale"
+                            Value="0.8" />
+                </VisualState.Setters>
+            </VisualState>
+
+        </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+            </ImageButton>
+
+        </StackLayout>
+            </ScrollView>
+</ContentPage>

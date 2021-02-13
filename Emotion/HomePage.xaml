@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Emotion.HomePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+                <BoxView
+                    BackgroundColor="IndianRed"
+                    x:Name="SwitchBox"/>
+                <Button x:Name="Button_Round"
+                    WidthRequest="120"
+                    HeightRequest="120"
+                    CornerRadius="60"
+                    BorderColor="PaleVioletRed"
+                    Text="Off"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Clicked="Button_Round_Clicked"/>
+
+
+
+                <BoxView Grid.Row="1"
+                         BackgroundColor="BurlyWood"/>
+                <Label Grid.Row="1"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       TextColor="AliceBlue"
+                       Text="Profile Page"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
